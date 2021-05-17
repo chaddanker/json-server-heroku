@@ -1,16 +1,36 @@
 {
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+  "approvals": [
     {
       "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "userId": 115,
+      "visitorName": "Test User",
+      "approved": "true"
+    },
+    {
+      "approved": "true",
+      "userId": 115,
+      "visitorName": "Chad Danker",
+      "id": 1
+    },
+    {
+      "approved": "true",
+      "userId": 115,
+      "visitorName": "Chad Danker",
+      "id": 2
+    },
+    {
+      "approved": "false",
+      "userId": 115,
+      "visitorName": "Test Test",
+      "id": 3
+    },
+    {
+      "approved": "false",
+      "userId": 115,
+      "visitorName": "Test Test",
+      "reason": "Busy",
+      "createdAt": "2021-05-17T09:15:34.195Z",
+      "id": 4
     }
   ]
 }
